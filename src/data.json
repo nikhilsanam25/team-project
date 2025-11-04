@@ -1,0 +1,55 @@
+[{
+    "id":1,
+    "name": "Dude",
+    "category": "Rom-Com",
+    "year":2025
+},
+    {
+     "id":2,
+     "name": "Bahubali",
+     "category": "Sci-fi",
+     "year":2016
+    },
+    {
+     "id":3,
+     "name": "Interstellar",
+     "category": "Sci-fi",
+     "year":2012
+    },
+    {
+     "id":4,
+     "name": "Fight Club",
+     "category": "Action",
+     "year":2007
+    },
+    {
+     "id":5,
+     "name": "Arundhathi",
+     "category": "Horror",
+     "year":2010
+    },
+    {
+     "id":6,
+     "name": "Conjuring",
+     "category": "Horror",
+     "year":2012
+    },
+    {
+     "id":6,
+     "name": "Conjuring",
+     "category": "Horror",
+     "year":2012
+    },
+    {
+        "id":7,
+        "name": "Legend",
+        "category": "Action",
+        "year": 2015
+    },
+    {
+        "id":8,
+        "name": "RRR",
+        "category":"Peroidic",
+        "year":"2022"
+    }
+]
