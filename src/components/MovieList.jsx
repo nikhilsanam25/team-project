@@ -21,7 +21,7 @@ export default function MovieList() {
       const matchcategory = selectedCategory
         ? m.category === selectedCategory
         : true;
-      return matchMoviename && matchselectedcategory;
+      return matchMoviename && matchcategory;
     });
     setFilteredMovies(newarray);
     // console.log(newarray);
@@ -40,7 +40,7 @@ export default function MovieList() {
         <div>No movies found</div>
       ) : (
         filteredMovies.map((movie) => (
-          <div key={movie.id} style={item}>
+          <div key={movie.id}>
             <h3>Title : {movie.name}</h3>
             <p>Category : {movie.category}</p>
             <p>Year of Release : {movie.year} </p>
